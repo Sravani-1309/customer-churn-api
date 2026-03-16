@@ -23,25 +23,24 @@ The API allows users to send customer data and receive churn predictions in real
 ---
 
 ## Project Structure
----
+
+```
 customer-churn-api
-│
 ├── dataset
 │   └── churn.csv
-│
 ├── model
-│   ├── train_model.py
+│   └── train_model.py
+├── saved_models
 │   └── churn_model.pkl
-│
 ├── api
 │   └── app.py
-│
 ├── database
 │   └── db_config.py
-│
 ├── requirements.txt
-└── README.md
----
+├── README.md
+└── .gitignore
+```
+
 **dataset/** – Contains customer dataset used for training the ML model
 **model/** – Contains model training script and saved model
 **api/** – FastAPI application providing prediction endpoints
