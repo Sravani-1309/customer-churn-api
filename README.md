@@ -23,7 +23,7 @@ The API allows users to send customer data and receive churn predictions in real
 ---
 
 ## Project Structure
-
+---
 customer-churn-api
 │
 ├── dataset
@@ -41,7 +41,7 @@ customer-churn-api
 │
 ├── requirements.txt
 └── README.md
-
+---
 **dataset/** – Contains customer dataset used for training the ML model
 **model/** – Contains model training script and saved model
 **api/** – FastAPI application providing prediction endpoints
