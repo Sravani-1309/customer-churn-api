@@ -94,15 +94,15 @@ This query retrieves customers who are predicted to churn.
 
 ## Installation
 
-### 1. Clone the repository
+1. Clone the repository
 
-### 2. Navigate to the project folder
+2. Navigate to the project folder
 
-### 3. Create a virtual environment
+3. Create a virtual environment
 
-### 4. Activate the virtual environment
+4. Activate the virtual environment
 
-### 5. Install dependencies
+5. Install dependencies
 
 ## Run the API
 
