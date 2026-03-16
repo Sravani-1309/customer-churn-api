@@ -134,10 +134,7 @@ Example response:
 }
 
 Prediction values:
-
 No → Customer likely to stay
 Yes → Customer likely to churn
 
 ---
-
-\
