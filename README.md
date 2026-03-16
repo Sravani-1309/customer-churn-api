@@ -121,27 +121,20 @@ FastAPI automatically generates interactive API documentation using Swagger UI.
 POST /predict
 
 Example request:
-
+```
 {
-
  "tenure": 24,
- 
  "monthly_charges": 45
- 
 }
-
+```
 Example response:
-
+```
 {
-
-    "prediction": "No"
-    
+    "prediction": "No"   
 }
-
+```
 Prediction values:
 
 No → Customer likely to stay
 
 Yes → Customer likely to churn
-
----
